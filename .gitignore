@@ -1,0 +1,11 @@
+# Ignore all so we don't commit our binary files
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### VisualStudio Code ###
+.vscode
