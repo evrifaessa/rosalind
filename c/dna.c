@@ -20,10 +20,10 @@ int main()
     {
         switch (DNAString[i])
         {
-            case 'A': a = a + 1; break;
-            case 'C': c = c + 1; break;
-            case 'G': g = g + 1; break;
-            case 'T': t = t + 1; break;
+            case 'A': a++; break;
+            case 'C': c++; break;
+            case 'G': g++; break;
+            case 'T': t++; break;
         }
     }
 
